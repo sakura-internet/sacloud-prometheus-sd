@@ -6,7 +6,22 @@
 
 ## インストール
 
-todo
+### ビルド済みバイナリ
+
+ファイルのURLはここから確認: https://github.com/sakura-internet/sacloud-prometheus-sd/releases
+
+```shell
+$ wget https://github.com/sakura-internet/sacloud-prometheus-sd/releases/download/__VERSION__/sacloud-prometheus-sd__VERSION__linux_amd64.tar.gz
+$ tar zxf sacloud-prometheus-sd__VERSION__linux_amd64.tar.gz
+```
+
+### Docker
+
+利用可能なタグはここから確認: https://github.com/sakura-internet/sacloud-prometheus-sd/packages
+
+```
+docker pull docker.pkg.github.com/sakura-internet/sacloud-prometheus-sd/sacloud-prometheus-sd:__VERSION__
+```
 
 
 ## 設定
