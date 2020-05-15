@@ -1,0 +1,9 @@
+sacloud_token: ""
+sacloud_token_secret: ""
+sacloud_zone: "is1b"
+base_tags:
+  - "develop"
+targets:
+  - service: "front-load-balancer"
+    tags: ["nginx", "lb"]
+    ports: [20180]
